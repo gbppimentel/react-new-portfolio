@@ -1,0 +1,16 @@
+/* Landing.css */
+.landing-container {
+  /* Set the background image */
+  background-image: url("../img/landing-0.png");
+
+  /* Adjust the background properties to cover the whole screen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Set the size of the container to match the screen size */
+  width: 100vw;
+  height: 100vh;
+
+  /* Add any other styling you need for your Landing component */
+}

@@ -1,0 +1,27 @@
+.sliding-image {
+  overflow: hidden;
+  width: 0;
+  transition: width 1.3s cubic-bezier(0.6, 0, 0.2, 1); /* Adjust the duration and bezier values as needed */
+  position: absolute;
+  top: 0;
+  left: 0; /* Start the sliding from the left */
+  height: 100vh; /* Set the height of the sliding image to match the screen size */
+}
+
+.sliding-image.visible {
+  width: 100%; /* Slide the image to cover the screen */
+}
+
+.slide1 {
+  /* Adjust the background properties to cover the whole screen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Set the size of the container to match the screen size */
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box; /* Ensure padding and border don't affect the overall size */
+
+  /* Add any other styling you need for your Landing component */
+}

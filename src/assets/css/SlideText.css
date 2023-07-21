@@ -1,0 +1,95 @@
+/* SlideText.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+h1 {
+  color: #ffffff;
+  font-family: Tilt Warp;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 200px;
+  padding-left: 370px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-text {
+  overflow: hidden;
+  white-space: pre;
+}
+
+.st_c_c {
+  display: inline-block;
+  animation: slide-from-bottom 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55)
+    forwards;
+  opacity: 0; /* Set initial opacity to 0 to make the letter invisible */
+}
+
+/* Apply individual delays to each letter */
+.st_c_c:nth-child(1) {
+  animation-delay: 100ms;
+}
+.st_c_c:nth-child(2) {
+  animation-delay: 120ms;
+}
+.st_c_c:nth-child(3) {
+  animation-delay: 140ms;
+}
+.st_c_c:nth-child(4) {
+  animation-delay: 160ms;
+}
+.st_c_c:nth-child(5) {
+  animation-delay: 180ms;
+}
+.st_c_c:nth-child(6) {
+  animation-delay: 200ms;
+}
+.st_c_c:nth-child(7) {
+  animation-delay: 220ms;
+}
+.st_c_c:nth-child(8) {
+  animation-delay: 240ms;
+}
+.st_c_c:nth-child(9) {
+  animation-delay: 260ms;
+}
+.st_c_c:nth-child(10) {
+  animation-delay: 280ms;
+}
+.st_c_c:nth-child(11) {
+  animation-delay: 300ms;
+}
+.st_c_c:nth-child(12) {
+  animation-delay: 320ms;
+}
+.st_c_c:nth-child(13) {
+  animation-delay: 340ms;
+}
+.st_c_c:nth-child(14) {
+  animation-delay: 360ms;
+}
+
+/* ... Continue adding nth-child rules for each letter with appropriate delays */
+
+/* Keyframes for the slide-from-bottom animation */
+@keyframes slide-from-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
