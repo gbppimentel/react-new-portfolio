@@ -6,6 +6,7 @@
   top: 0;
   left: 0; /* Start the sliding from the left */
   height: 100vh; /* Set the height of the sliding image to match the screen size */
+  z-index: 1;
 }
 
 .sliding-image.visible {

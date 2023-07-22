@@ -10,7 +10,8 @@ h1 {
   font-weight: 400;
   line-height: normal;
   padding-top: 200px;
-  padding-left: 370px;
+  /* padding-left: 370px; */
+  z-index: -99;
 }
 
 html,

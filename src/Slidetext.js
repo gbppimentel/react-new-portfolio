@@ -2,7 +2,7 @@ import React from "react";
 import "./assets/css/SlideText.css"; // Import the CSS file with the necessary styles
 
 const SlideText = () => {
-  const text = "Hi, I'm Glenn.  ";
+  const text = "Hi, I'm Glenn.";
 
   return (
     <h1 className="slide-text">
