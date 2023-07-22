@@ -1,5 +1,6 @@
 import "./assets/css/App.css";
 import Landing from "./Landing";
+import Menu from "./Menu";
 import Nav from "./Nav";
 
 function App() {
